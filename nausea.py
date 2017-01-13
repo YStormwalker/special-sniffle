@@ -189,7 +189,7 @@ def routine(path):
 
 
 if __name__ == '__main__':
-    indexes = [str(index)[-4:] for index in range(10001, 11001)]
+    indexes = [str(index)[-4:] for index in range(10001, 10106)]
     paths = ['text_files/' + index + '.txt' for index in indexes]
 
     p = Pool()
